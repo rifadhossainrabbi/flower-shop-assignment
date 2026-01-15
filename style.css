@@ -16,6 +16,7 @@ body {
 }
 
 .primary_btn {
+  display: inline-block;
   padding: 20px 43px;
   background-color: #E55473;
   border: none;
@@ -25,6 +26,7 @@ body {
 
 .primary_header {
   font-size: 2.5rem;
+  margin-bottom: 30px;
   font-weight: bolder;
   color: #272727;
 }
@@ -164,6 +166,51 @@ body {
 }
 
 
+/* Hot Deal Section */
+.hot_deal_section {
+  background-color: rgba(229, 84, 115, 0.05);
+  width: 100%;
+  height: 620px;
+  margin-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hot_deal_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 186px;
+}
+
+.hot_left_side {
+  max-width: 594px;
+  text-align: center;
+}
+
+
+.hot_right_img {
+  max-width: 318px;
+  height: 420px;
+}
+
+.hot_right_img img {
+  max-width: 318px;
+  height: 420px;
+}
+
+/* hot left side er p */
+.four {
+  margin-bottom: 30px;
+}
+
+/* hero left side er heading er span er color change  */
+#eight {
+  color: #E55473;
+}
+
+
 
 /* ========== Responsive for mobile (max-width: 576px) ========== */
 @media screen and (max-width: 576px) {
@@ -230,9 +277,12 @@ body {
     margin-top: 4rem;
   }
 
-  .primary_header {
-    font-size: 1.8rem;
-  }
+    .primary_header {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      /* font-weight: bolder;
+      color: #272727; */
+    }
 
   .primary_text {
     font-size: 1rem;
@@ -293,7 +343,7 @@ body {
     gap: 50px;
   }
 
-  .delivery_card{
+  .delivery_card {
     width: 250px;
   }
 
@@ -301,10 +351,39 @@ body {
     margin-bottom: 15px;
     width: 50%;
   }
-}
 
-/* Media query */
-/* @media screen and (max-width:576px)
+  /* hot deal section er responsive */
+  .hot_deal_section {
+    background-color: rgba(229, 84, 115, 0.05);
+    width: 100%;
+    height: auto;
+    /* margin: 50px 20px; */
+    flex-direction: column;
+  }
+
+  .hot_deal_container {
+    flex-direction: column;
+    /* justify-content: center;
+      align-items: center; */
+    gap: 50px;
+    padding: 50px 20px;
+    width: 100%;
+  }
+
+  .hot_left_side {
+    width: 100%;
+  }
+
+  .hot_right_img {
+    width: 100%;
+  }
+
+  .hot_right_img img {
+   width: 100%;
+  }
+
+  /* Media query */
+  /* @media screen and (max-width:576px)
 
   .hero_section {
     max-width: 100%;
