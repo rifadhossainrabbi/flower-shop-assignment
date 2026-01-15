@@ -140,6 +140,30 @@ body {
 }
 
 
+/* Delivery section styles */
+.delivery_section {
+  max-width: 1440px;
+  margin: 128px auto;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+}
+
+.delivery_section_cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 86px 175px 86px 150px;
+}
+
+.delivery_card {
+  text-align: center;
+}
+
+.delivery_card img {
+  margin-bottom: 25px;
+}
+
+
 
 /* ========== Responsive for mobile (max-width: 576px) ========== */
 @media screen and (max-width: 576px) {
@@ -252,6 +276,30 @@ body {
 
   .primary_btn {
     padding: 15px 30px;
+  }
+
+  /* Delivery section er responsive */
+  .delivery_section {
+    max-width: 100%;
+    margin: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .delivery_section_cards {
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+  }
+
+  .delivery_card{
+    width: 250px;
+  }
+
+  .delivery_card img {
+    margin-bottom: 15px;
+    width: 50%;
   }
 }
 
