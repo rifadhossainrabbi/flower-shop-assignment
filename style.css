@@ -263,13 +263,71 @@ body {
   height: 396px;
 }
 
-.flower:hover{
+.flower:hover {
   border: 2px solid red;
 }
 
 .flower img {
   width: 342px;
   height: 396px;
+}
+
+
+/*  Get the latest deals section */
+.latest_deals_section {
+  margin: 0 auto 128px;
+  max-width: 1440px;
+  height: 450px;
+  background-image: url('./Flower Asset/Rectangle 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest_deals {
+  /* border: 1px solid red; */
+  width: 866px;
+}
+
+.latest_deals_header {
+  width: 373px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* latest deals header er h3 er margin bottom komano hoise */
+.sasuke {
+  margin-bottom: 16px;
+}
+
+.latest_deals_form_and_button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 866px;
+  margin-top: 3rem;
+}
+
+.latest_deals_form_and_button form input {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  width: 700px;
+  height: 58px;
+  font-size: 16px;
+  color: #272727;
+}
+
+.latest_deals_form_and_button form input:hover {
+  border: 2px solid #db5326;
+  background-color: transparent;
+  /* color: #ff0000; */
+}
+
+/* placeholder hover color */
+.latest_deals_form_and_button form input:hover::placeholder {
+  color: #0066ff;
 }
 
 
@@ -483,5 +541,71 @@ body {
     /* width: 342px;
       height: 396px; */
     width: 100%;
+  }
+
+
+
+  /*  Get the latest deals section responsive*/
+  .latest_deals_section {
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+    background-size: 100%;
+    /* background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .latest_deals {
+    /* border: 1px solid red; */
+    width: 60%;
+  }
+
+  .latest_deals_header {
+    width: 100%;
+    /* margin: 0 auto;
+    text-align: center; */
+  }
+
+  /* latest deals header er h3 er margin bottom komano hoise */
+  .sasuke {
+    font-size: 1.3rem;
+    margin: 15px auto 10px;
+  }
+
+  .latest_deals_form_and_button {
+    /* display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 866px;
+    margin-top: 3rem; */
+    width: 100%;
+    /* flex-direction: column; */
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    /* margin: 20px; */
+    /* text-align: center; */
+  }
+
+  .latest_deals_form_and_button form input {
+    /* border: 2px solid transparent;
+    border-radius: 5px;
+    width: 700px;
+    height: 58px;
+    font-size: 16px;
+    color: #272727; */
+    font-size: 12px;
+    width: 100%;
+    height: 48px;
+  }
+
+  .lord{
+    padding: 8px 25px;
   }
 }
