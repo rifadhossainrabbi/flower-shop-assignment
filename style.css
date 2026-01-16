@@ -232,6 +232,41 @@ body {
   color: #E55473;
 }
 
+/*  Instagram section styles */
+.instagram_section {
+  /* border: 1px solid red; */
+  max-width: 1440px;
+  margin: 0 auto 128px;
+}
+
+.instagram_section_header {
+  /* border: 1px solid red; */
+  max-width: 594px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* instagram_section_header er h3 er margin bottom komano hoise */
+.naruto {
+  margin-bottom: 24px;
+}
+
+.instagram_section_flowers {
+  display: flex;
+  gap: 24px;
+  margin-top: 3rem;
+}
+
+.flower {
+  width: 342px;
+  height: 396px;
+}
+
+.flower img {
+  width: 342px;
+  height: 396px;
+}
+
 
 /* ========== Responsive for mobile (max-width: 576px) ========== */
 @media screen and (max-width: 576px) {
@@ -282,9 +317,9 @@ body {
     color: #272727; */
   }
 
-    .hero_right_img{
-      width: 100%;
-    }
+  .hero_right_img {
+    width: 100%;
+  }
 
   .hero_right_img img {
     width: 100%;
@@ -402,18 +437,46 @@ body {
     width: 100%;
   }
 
-  /* .hero_section {
+
+
+  /*  Instagram section styles */
+  .instagram_section {
+    /* border: 1px solid red; */
     max-width: 100%;
-    height: auto;
-    background-color: #FFD4CF;
-    padding-top: 50px;
-    margin-left: 0px;
-  } */
+    margin: 0 auto 25px;
+  }
 
-  /* .flowers_card {
-    border-top-left-radius: 18.75rem;
-    border-top-right-radius: 18.75rem;
+  .instagram_section_header {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    margin: 30px;
+    /* margin: 0 auto;
+      text-align: center; */
+  }
+
+  /* instagram_section_header er h3 er margin bottom komano hoise */
+  .naruto {
+    margin-bottom: 16px;
+  }
+
+  .instagram_section_flowers {
+    /* display: flex;
+      gap: 24px;
+      margin-top: 3rem; */
+    margin: 30px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .flower {
+    /* width: 342px;
+      height: 396px; */
     width: 100%;
-  } */
+  }
 
+  .flower img {
+    /* width: 342px;
+      height: 396px; */
+    width: 100%;
+  }
 }
