@@ -258,8 +258,13 @@ body {
 }
 
 .flower {
+  border: 2px solid transparent;
   width: 342px;
   height: 396px;
+}
+
+.flower:hover{
+  border: 2px solid red;
 }
 
 .flower img {
